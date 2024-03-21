@@ -1,0 +1,114 @@
+Video.02.12: Task Implentation for AsyncApiCalls
+----------------------------------------------------------------------------------
+Video.02.13: Generic ServiceResponce
+----------------------------------------------------------------------------------
+Video.02.14: DTOs ohne Automapper, not runable
+----------------------------------------------------------------------------------
+Video.02.15: DTOs + Automapper
+https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1
+----------------------------------------------------------------------------------
+Video.02.16: PUT, character modifying
+----------------------------------------------------------------------------------
+Video.02.17: character modifying at automapper
+----------------------------------------------------------------------------------
+Video.02.18: DELETE controller/api
+----------------------------------------------------------------------------------
+03- Entity Framework Core
+----------------------------------------------------------------------------------
+Video.03.03 EF core nuget paket installations
+    https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/8.0.0-rc.1.23419.6
+    dotnet add package Microsoft.EntityFrameworkCore --version 8.0.0-rc.1.23419.6
+
+    Provider:
+    https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/8.0.0-rc.1.23419.6
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.0-rc.1.23419.6
+
+    Design paket
+    https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/8.0.0-rc.1.23419.6
+    dotnet add package Microsoft.EntityFrameworkCore.Design --version 8.0.0-rc.1.23419.6
+
+    Ef Tool
+    dotnet tool install --globaly dotnet-ef <Terminal>
+    Sie können das Tool über den folgenden Befehl aufrufen: dotnet-ef
+    Das Tool "dotnet-ef" (Version 7.0.11) wurde erfolgreich installiert.
+
+    <Terminal> dotnet ef
+                     _/\__       
+               ---==/    \\      
+         ___  ___   |.    \|\    
+        | __|| __|  |  )   \\\
+        | _| | _|   \_/ |  //|\\
+        |___||_|       /   \\\/\\
+
+		Entity Framework Core .NET Command-line Tools 7.0.11
+
+		Usage: dotnet ef [options] [command]
+
+		Options:
+		  --version        Show version information
+		  -h|--help        Show help information
+		  -v|--verbose     Show verbose output.
+		  --no-color       Don't colorize output.
+		  --prefix-output  Prefix output with level.
+
+		Commands:
+		  database    Commands to manage the database.
+		  dbcontext   Commands to manage DbContext types.
+		  migrations  Commands to manage migrations.    
+----------------------------------------------------------------------------------
+Video.03.05 DataContext creating
+----------------------------------------------------------------------------------
+Video.03.06 Options
+----------------------------------------------------------------------------------
+Video.03.07 EF core migrations
+<Terminal> dotnet ef migrations add InitialCreate
+<Terminal> dotnet ef database update
+----------------------------------------------------------------------------------
+Video.03.08 GetAll GetById implementation from DB via ef core
+----------------------------------------------------------------------------------
+Video.03.09 Post/insert via efcore
+----------------------------------------------------------------------------------
+Video.03.10 Put/Update via efcore
+----------------------------------------------------------------------------------
+Video.03.11 Delete via efcore
+----------------------------------------------------------------------------------
+Video.04.02 User Table
+  dotnet watch / dotnet run
+  dotnet ef migrations add usertable_added
+  dotnet ef database update
+----------------------------------------------------------------------------------
+Video.04.03 DB Relationship User-Character 
+----------------------------------------------------------------------------------
+Video.04.04 Authentication User
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+Video.04.06 IAuthrepository
+----------------------------------------------------------------------------------
+Video.04.07 User registration + HMACSHA512
+----------------------------------------------------------------------------------
+Video.04.08 User Exist?
+----------------------------------------------------------------------------------
+Video.04.09 AuthController AddUserDto
+----------------------------------------------------------------------------------
+Video.04.10 Userlogin user:sinan pas:xx
+----------------------------------------------------------------------------------
+Video.04.11 JSON Web Tokens jwt.io
+----------------------------------------------------------------------------------
+Video.04.12 jwt implementation jwt.io
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
